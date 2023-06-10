@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  
+
+</head>
+<body>
+    <header>
+        <img src="img/logo1.jpg">
+        <a href="dangnhap.html">Đăng kí</a>
+        <p>Hotline:0332913900</p>
+        <div class="color">
+            <div
+             id="c1"></div>
+            <div id="c2"></div>
+            <div id="c3"></div>
+        </div>
+    </header>
+    <section class="noi">
+        <img src="img/logo3.png" alt="">
+    </section>
+    <section class="noi1">
+        <img src="img/logo4.jpg" alt="">
+    </section>
+   
+    <div class="menu">
+        <i class="bi bi-list"></i>
+    </div>
+    <hr color="azure">
+    <nav>
+        <a href="">Trang chủ</a>
+        <a href="">Giới thiệu</a>
+        <a href="">Đặt lịch </a>
+        <a href="">Thuê xe</a>
+        <a href="">Tư vấn</a>
+        <a href="">Tour nước ngoài</a>
+    </nav>
+
+    <div class="slide">
+        <img id="banner" src="img/banner1.jpg" width="100%" height="300px">
+        <i class="bi bi-caret-left" onclick="prev()"></i>
+        <i class="bi bi-caret-right" onclick="next()"></i>
+        <div class="list">
+            <span id="0">.</span>
+            <span id="1">.</span>
+            <span id="2">.</span>
+        </div>
+    </div>
+
+    <main>
+        <div class="danhmuc">
+               <div class="tieude">
+                <h4>Du lịch trong nước</h4>
+               </div>
+               <hr>
+            <section class="list">
+                <article class="diadiem1">
+                    <img src="img/dltn1.jpg">
+                    <div class="diadiem2">
+                        <img src="img/icon-diadiem.png" >  
+                    <p><b>Hà Nội</b></p>
+                    </div>
+                    <li>Tour Hà Nội 3N3D</li>
+                    <li class="gt">
+                       <div class="gt1">
+                        2.490.000Đ
+                       </div>
+                    </li>
+                    <li class="gt">
+                       <div class="gt2">
+                        2.700.000Đ
+                       </div>
+                    </li>
+                    <div class="ttdl">
+                        <div class="ttdl1">
+                            <i class="bi bi-clock-fill"></i>
+                            <p>Thời gian: 3 ngày 3 đêm</p>
+                        </div>
+                        <div class="ttdl1">
+                            <i class="bi bi-car-front-fill"></i>    
+                            <p>Phương tiện: ô tô</p>
+                        </div>
+                        <div class="ttdl1">
+                            <i class="bi bi-buildings"></i>        
+
+                            <p>Khách sạn: 
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </p>
+                        </div>
+                        <div class="ttdl1">
+                            <i class="bi bi-calendar"></i> 
+                            <p>Ngày đi: </p>
+                        </div>
+                    </div>
+                </article>
+                <article class="diadiem1">
+                    <img src="img/dltn2.png">
+                    <div class="diadiem2">
+                        <img src="img/icon-diadiem.png" >  
+                    <p><b>Đà Lạt</b></p>
+                    </div>
+                    <li>Tour Đà Lạt 3N3D</li>
+                    <li class="gt">
+                       <div class="gt1">
+                        2.990.000Đ
+                       </div>
+                    </li>
+                    <li class="gt">
+                       <div class="gt2">
+                        3.320.000Đ
+                       </div>
+                    </li>
+                    <div class="ttdl">
+                        <div class="ttdl1">
+                            <i class="bi bi-clock-fill"></i>
+                            <p>Thời gian: 3 ngày 3 đêm</p>
+                        </div>
+                        <div class="ttdl1">
+                            <i class="bi bi-car-front-fill"></i>    
+                            <p>Phương tiện: ô tô</p>
+                        </div>
+                        <div class="ttdl1">
+                            <i class="bi bi-buildings"></i>        
+
+                            <p>Khách sạn: 
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+
+                            </p>
+                        </div>
+                        <div class="ttdl1">
+                            <i class="bi bi-calendar"></i> 
+                            <p>Ngày đi: </p>
+                        </div>
+                    </div>
+                </article>
+                <article class="diadiem1">
+                    <img src="img/dltn3.jpg">
+                    <div class="diadiem2">
+                        <img src="img/icon-diadiem.png" >  
+                    <p><b>Đà Nẵng</b></p>
+                    </div>
+                    <li>Tour Đà Nẵng 4N3D</li>
+                    <li class="gt">
+                        <div class="gt1">
+                         2.990.000Đ
+                        </div>
+                     </li>
+                     <li class="gt">
+                        <div class="gt2">
+                         3.500.000Đ
+                        </div>
+                     </li>
+                     <div class="ttdl">
+                         <div class="ttdl1">
+                             <i class="bi bi-clock-fill"></i>
+                             <p>Thời gian: 4 ngày 3 đêm</p>
+                         </div>
+                         <div class="ttdl1">
+                             <i class="bi bi-car-front-fill"></i>    
+                             <p>Phương tiện: ô tô</p>
+                         </div>
+                         <div class="ttdl1">
+                             <i class="bi bi-buildings"></i>        
+ 
+                             <p>Khách sạn: 
+                                 <i class="bi bi-star-fill"></i>
+                                 <i class="bi bi-star-fill"></i>
+                                 <i class="bi bi-star-fill"></i>
+                                 <i class="bi bi-star-fill"></i>
+ 
+                             </p>
+                         </div>
+                         <div class="ttdl1">
+                             <i class="bi bi-calendar"></i> 
+                             <p>Ngày đi: </p>
+                         </div>
+                     </div>
+                </article>
+                <article class="diadiem1">
+                    <img src="img/dltn4.jpg">
+                    <div class="diadiem2">
+                        <img src="img/icon-diadiem.png" >  
+                    <p><b>TP.HCM</b></p>
+                    </div>
+                    <li>Tour TP.HCM 3N2D</li>
+                    <li class="gt">
+                        <div class="gt1">
+                         1.700.000Đ
+                        </div>
+                     </li>
+                     <li class="gt">
+                        <div class="gt2">
+                         2.000.000Đ
+                        </div>
+                     </li>
+                     <div class="ttdl">
+                         <div class="ttdl1">
+                             <i class="bi bi-clock-fill"></i>
+                             <p>Thời gian: 3 ngày 2 đêm</p>
+                         </div>
+                         <div class="ttdl1">
+                             <i class="bi bi-car-front-fill"></i>    
+                             <p>Phương tiện: ô tô</p>
+                         </div>
+                         <div class="ttdl1">
+                             <i class="bi bi-buildings"></i>        
+ 
+                             <p>Khách sạn: 
+                                 <i class="bi bi-star-fill"></i>
+                                 <i class="bi bi-star-fill"></i>
+                                 <i class="bi bi-star-fill"></i> 
+                             </p>
+                         </div>
+                         <div class="ttdl1">
+                             <i class="bi bi-calendar"></i> 
+                             <p>Ngày đi: </p>
+                         </div>
+                     </div>
+                </article>
+            </section>
+            <section class="list">
+                <article class="diadiem1">
+                    <img src="img/dltn5.jpg">
+                    <div class="diadiem2">
+                        <img src="img/icon-diadiem.png" >  
+                    <p><b>Phú Quốc</b></p>
+                    </div>
+                    <li>Tour Phú Quốc 3N3D</li>
+                    <li class="gt">
+                        <div class="gt1">
+                         4.000.000Đ
+                        </div>
+                     </li>
+                     <li class="gt">
+                        <div class="gt2">
+                         4.400.000Đ
+                        </div>
+                     </li>
+                     <div class="ttdl">
+                         <div class="ttdl1">
+                             <i class="bi bi-clock-fill"></i>
+                             <p>Thời gian: 3 ngày 3 đêm</p>
+                         </div>
+                         <div class="ttdl1">
+                             <i class="bi bi-car-front-fill"></i>    
+                             <p>Phương tiện: ô tô</p>
+                         </div>
+                         <div class="ttdl1">
+                             <i class="bi bi-buildings"></i>        
+ 
+                             <p>Khách sạn: 
+                                 <i class="bi bi-star-fill"></i>
+                                 <i class="bi bi-star-fill"></i>
+                                 <i class="bi bi-star-fill"></i>
+                                 <i class="bi bi-star-fill"></i>
+ 
+                             </p>
+                         </div>
+                         <div class="ttdl1">
+                             <i class="bi bi-calendar"></i> 
+                             <p>Ngày đi: </p>
+                         </div>
+                     </div>
+                </article>
+                <article class="diadiem1">
+                    <img src="img/dltn6.jpg">
+                    <div class="diadiem2">
+                        <img src="img/icon-diadiem.png" >  
+                    <p><b>SaPa</b></p>
+                    </div>
+                    <li>Tour SaPa 2N2D</li>
+                    <li class="gt">
+                        <div class="gt1">
+                         3.000.000Đ
+                        </div>
+                     </li>
+                     <li class="gt">
+                        <div class="gt2">
+                         3.300.000Đ
+                        </div>
+                     </li>
+                     <div class="ttdl">
+                         <div class="ttdl1">
+                             <i class="bi bi-clock-fill"></i>
+                             <p>Thời gian: 2 ngày 2 đêm</p>
+                         </div>
+                         <div class="ttdl1">
+                             <i class="bi bi-car-front-fill"></i>    
+                             <p>Phương tiện: ô tô</p>
+                         </div>
+                         <div class="ttdl1">
+                             <i class="bi bi-buildings"></i>        
+ 
+                             <p>Khách sạn: 
+                                 <i class="bi bi-star-fill"></i>
+                                 <i class="bi bi-star-fill"></i>
+                                 <i class="bi bi-star-fill"></i>
+ 
+                             </p>
+                         </div>
+                         <div class="ttdl1">
+                             <i class="bi bi-calendar"></i> 
+                             <p>Ngày đi: </p>
+                         </div>
+                     </div>
+                </article>
+                <article class="diadiem1">
+                    <img src="img/dltn7.webp">
+                    <div class="diadiem2" style="width:220px">
+                        <img src="img/icon-diadiem.png" >  
+                    <p><b>Quãng Ninh-Vịnh Hạ Long</b></p>
+                    </div>
+                    <li>Tour Phú Quốc 3N2D</li>
+                    <li class="gt">
+                        <div class="gt1">
+                         2.900.000Đ
+                        </div>
+                     </li>
+                     <li class="gt">
+                        <div class="gt2">
+                         3.400.000Đ
+                        </div>
+                     </li>
+                     <div class="ttdl">
+                         <div class="ttdl1">
+                             <i class="bi bi-clock-fill"></i>
+                             <p>Thời gian: 3 ngày 2 đêm</p>
+                         </div>
+                         <div class="ttdl1">
+                             <i class="bi bi-car-front-fill"></i>    
+                             <p>Phương tiện: ô tô</p>
+                         </div>
+                         <div class="ttdl1">
+                             <i class="bi bi-buildings"></i>        
+ 
+                             <p>Khách sạn: 
+                                 <i class="bi bi-star-fill"></i>
+                                 <i class="bi bi-star-fill"></i>
+                                 <i class="bi bi-star-fill"></i>
+                                 <i class="bi bi-star-fill"></i>
+ 
+                             </p>
+                         </div>
+                         <div class="ttdl1">
+                             <i class="bi bi-calendar"></i> 
+                             <p>Ngày đi: </p>
+                         </div>
+                     </div>
+                </article>
+                <article class="diadiem1">
+                    <img src="img/dltn8.jpg">
+                    <div class="diadiem2" style="width:240px" >
+                        <img src="img/icon-diadiem.png" >  
+                    <p><b>Quãng Bình-Hang Sơn Đoòng</b></p>
+                    </div>
+                    <li>Tour Hang Sơn Đoòng 4N3D</li>
+                    <li class="gt">
+                        <div class="gt1">
+                         70.000.000Đ
+                        </div>
+                     </li>
+                     
+                     <div class="ttdl">
+                         <div class="ttdl1">
+                             <i class="bi bi-clock-fill"></i>
+                             <p>Thời gian: 4 ngày 3 đêm</p>
+                         </div>
+                         <div class="ttdl1">
+                             <i class="bi bi-car-front-fill"></i>    
+                             <p>Phương tiện: ô tô + đi bộ</p>
+                         </div>
+                         <div class="ttdl1">
+                             <i class="bi bi-calendar"></i> 
+                             <p>Ngày đi: </p>
+                         </div>
+                     </div>               
+                     </article>
+            </section>
+        </div>
+        <div class="tieude">
+            <h4>Du lịch nước ngoài</h4>
+           </div>
+        <hr>
+        <section class="grid-container">
+            <div class="item1">
+                <img src="img/dlcl.webp" alt="" class="image">
+                <p>Du lịch Chile</p>    
+                <div class="middle">
+                    <div class="text">xem thêm</div>
+                </div>
+            </div>
+            <div class="item2">
+                <img src="img/dlm.jpg" alt="" class="image">
+                <p>Du lịch Mỹ</p>
+                <div class="middle">
+                    <div class="text">xem thêm</div>
+                </div>
+            </div>
+            <div class="item3">
+                <img src="img/dlp.jpg" alt="" class="image">
+                <p>Du lịch Pháp</p>
+                <div class="middle">
+                    <div class="text">xem thêm</div>
+                </div>
+            </div>
+            <div class="item4">
+                <img src="img/dlar.jpg" alt="" class="image">
+                <p>Du lịch Ả Rập</p>
+                <div class="middle">
+                    <div class="text">xem thêm</div>
+                </div>
+            </div>
+            <div class="item5">
+                <img src="img/dlnb.jpg" alt="" class="image">
+                <p>Du lịch Nhât Bản</p>
+                <div class="middle">
+                    <div class="text">xem thêm</div>
+                </div>
+            </div>
+        </section>
+    </main>
+     <h3>THƯ VIỆN ẢNH CỦA KHÁCH</h3>
+     <div class="aa">
+        <hr>
+    </div>
+    <section class="gallery">
+        <div class="column-3">
+            <img src="img/gallery1.jpg">
+            <img src="img/gallery2.jpg">
+            <img src="img/gallery3.jpg">
+        </div>
+        <div class="column-4">
+            <img src="img/gallery4.jpg">
+            <img src="img/gallery5.jpg">
+            <img src="img/gallery6.jpg">
+            <img src="img/gallery7.jpg">
+        </div>
+        <div class="column-3">
+            <img src="img/gallery8.jpg">
+            <img src="img/gallery9.jpg">
+            <img src="img/gallery10.jpg">
+        </div>
+        <div class="column-4">
+            <img src="img/gallery11.jpg">
+            <img src="img/gallery12.jpg">
+            <img src="img/gallery13.jpg">
+            <img src="img/gallery14.jpg">
+        </div>
+    </section>
+    
+    <!--------------- feedback ----------------->
+    <h3>Phản hồi của khách hàng</h3 >
+        <div class="aa">
+            <hr>
+        </div>
+        <section class="feedback">
+            <article>
+                <img src="img/kh1.jpg" alt="">
+                <p>Kê Vinh</p>
+                <p>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </p>
+                <span>
+                    <i>
+                        "Tôi và Courtois(bạn thân của tôi) có chuyến đi du lịch thật thoải mái và tuyệt vời với dịch vụ"
+                    </i>
+                </span>
+            </article>
+            <hr>
+            <article>
+                <img src="img/kh2.jpg" alt="">
+                <p>Anh Si</p>
+                <p>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </p>
+                <span>
+                    <i>
+                        "Tôi thật sự hài lòng về dịch vụ vì đã có một kì nghỉ dưỡng tuyệt vời ở Chile"
+                    </i>
+                </span>
+            </article>
+            <hr>
+            <article>
+                <img src="img/kh3.jpg" alt="">
+                <p>Văn Đô</p>
+                <p>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </p>
+                <span>
+                    <i>
+                        "Dịch vụ tốt, an toàn và nhanh. Đã làm cho tôi có trãi nghiệm ở đất nước Ả Rập đáng yêu, cho luôn 5 sao"
+                    </i>
+                </span>
+            </article>
+        </section>
+        <!---------------------------- FOOTER -------------------------->
+    <footer>
+        <section>
+            <div class="thongtin">
+                <h1>LIÊN HỆ</h1>
+                <hr>
+                <p>Phương Tân Chánh Hiệp, Q.12, TP.HCM</p>
+                <p>Email: dulichviet@gmail.com</p>
+                <p>Điện Thoại: 0123456789 - 0987654321</p>
+                <p>Mã số thuế: 0311854004</p>
+                <p>GPKD lữ hành quốc tế số 79-400/2015/TCDL</p>
+            </div>
+            <div class="thongtin">
+                <h1>BẢN ĐỒ</h1>
+                <hr>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7836.888126970113!2d106.62451623275184!3d10.853790432170053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752bee0b0ef9e5%3A0x5b4da59e47aa97a8!2zQ8O0bmcgVmnDqm4gUGjhuqduIE3hu4FtIFF1YW5nIFRydW5n!5e0!3m2!1svi!2s!4v1684896694765!5m2!1svi!2s" 
+                width="300" 
+                height="150" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="thongtin">
+                <h1>KẾT NỐI</h1>
+                <hr>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-youtube"></i>
+                <p>Đăng ký nhận tin khuyến mãi</p>
+                <input type="text" 
+                placeholder="Nhập email"
+                width="90%">
+                <button class="btn">ĐĂNG KÝ</button>
+            </div>
+        </section>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
